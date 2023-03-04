@@ -3,12 +3,7 @@ import java.time.LocalDate;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(" Домашка 11. Методы");
-        // Извините, пришлось убрать методы tasks, с ними ничего не работало
-        // но и так ничего не работает, но хотя бы exit code 0, а не целый список ошибок
-        // непонятно куда ставить переменные изначальные в этих задачах
-
-    }
+        System.out.println(" Домашка 11. Методы");    }
 
     public static void printLeapYear(int year) {
 
@@ -19,7 +14,6 @@ public class Main {
                 System.out.println(year + "год не является високосным");
             }
         }
-
     }
 
     public static void printVersion(int os, int year) {
@@ -35,7 +29,7 @@ public class Main {
         }
     }
 
-    public static int howManyDeliveryDaysNeeded(int deliveryDistance) {
+    public static int getNumberOfDeliveryDays(int deliveryDistance) {
         if (deliveryDistance > 100) {
             return -1;
 
